@@ -12,6 +12,24 @@
   },
   "homepage": "https://github.com/TuriGuilano/cuss",
   "dependencies": {
-    "cuss": "^1.4.0"
+    "cuss": "^1.4.0",
+    "f-ck": "^1.0.1",
+    "node": "0.0.0",
+    "repeat-string": "^1.6.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  },
+  "scripts": {
+    "build": "browserify index.js -o build.js",
+    "lint": "xo",
+    "test": "npm run build && npm run lint"
+  },
+  "xo": {
+    "space": true,
+    "esnext": false,
+    "ignore": [
+      "build.js"
+    ]
   }
 }
