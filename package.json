@@ -1,0 +1,17 @@
+{
+  "name": "cuss-www",
+  "private": true,
+  "version": "1.0.0",
+  "description": "site for cuss by Jan",
+  "repository": "TuriGuilano/cuss",
+  "keywords": [],
+  "author": "Janno <jkapritsias@gmail.com> (TuriGuilano)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuriGuilano/cuss/issues"
+  },
+  "homepage": "https://github.com/TuriGuilano/cuss",
+  "dependencies": {
+    "cuss": "^1.4.0"
+  }
+}
