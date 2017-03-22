@@ -11,7 +11,6 @@ input.addEventListener('input', change);
 function change() {
   output.value = fck(input.value);
 }
-console.log('jedoettniet');
 
 //npm init -> zo begin je altijd een npm project.
 // je kan -y doen dan zeg je ja op alle vragen en kan
